@@ -1,4 +1,12 @@
 public class Magical extends Player {
 
-    public int [] health = {250};
+    private int superatak;
+
+    public int getSuperatak() {
+        return superatak;
+    }
+
+    public void setSuperatak(int superatak) {
+        this.superatak = superatak;
+    }
 }

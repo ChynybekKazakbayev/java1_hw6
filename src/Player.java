@@ -1,11 +1,21 @@
 public class Player  {
 
-    public static int[] health = {700, 250, 250, 250};
-    public static int[] hits = {50, 20, 20, 20,};
-    public static String[] hitTypes = {"Physical", "Warior",
-            "Magical", "Mental",""};
+   private int health;
+   private int hits;
 
+    public int getHealth() {
+        return health;
+    }
 
+    public void setHealth(int health) {
+        this.health = health;
+    }
 
+    public int getHits() {
+        return hits;
+    }
 
+    public void setHits(int hits) {
+        this.hits = hits;
+    }
 }

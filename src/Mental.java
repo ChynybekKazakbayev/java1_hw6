@@ -1,4 +1,11 @@
 public class Mental extends Player {
+    private int supperattak;
 
-    public int [] health = {250};
+    public int getSupperattak() {
+        return supperattak;
+    }
+
+    public void setSupperattak(int supperattak) {
+        this.supperattak = supperattak;
+    }
 }

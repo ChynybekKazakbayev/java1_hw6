@@ -1,6 +1,11 @@
 public class Boss extends Player{
+    private int deffens;
 
+    public int getDeffens() {
+        return deffens;
+    }
 
-
-    public  int [] health = {700};
+    public void setDeffens(int deffens) {
+        this.deffens = deffens;
+    }
 }
